@@ -10,6 +10,10 @@ repositories {
     mavenCentral()
 }
 dependencies {
+    implementation ("org.reactfx:reactfx:2.0-M5")
+    implementation ("org.jetbrains.kotlin:kotlinx-coroutines-core:1.4.0")
+
+
     testImplementation(kotlin("test-junit"))
 }
 tasks.withType<KotlinCompile>() {
